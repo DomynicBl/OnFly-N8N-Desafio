@@ -1,0 +1,12 @@
+# Dependências do Node.js (dentro da pasta nodes)
+/nodes/node_modules
+
+# Código compilado do TypeScript (dentro da pasta nodes)
+/nodes/dist
+
+# Arquivos de log do npm
+npm-debug.log*
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db

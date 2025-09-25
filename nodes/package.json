@@ -1,0 +1,23 @@
+{
+  "name": "n8n-nodes-random-onfly",
+  "version": "1.0.0",
+  "description": "N8N node for generating random numbers using random.org",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "nodes": [
+      "dist/Random/Random.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.42",
+    "n8n-workflow": "*",
+    "typescript": "^4.9.5"
+  }
+}
